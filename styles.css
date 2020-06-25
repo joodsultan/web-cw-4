@@ -1,48 +1,75 @@
-html, body{
-    margin: 0;
+html, body{background-color:rgb(199, 150, 150);
+   
+    height: 100%;
+    margin: 0px;
+}
+
+.sidebar{
+        height: 100%;
+        width: 120px;
+        background-color:black;
+        padding-top: 20px;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        color: white;
+        margin: 5px;
+
+      }
+    /* pxالعرض هنا يجب ان يكون 120 */
+
+  
+
+
+.header{
+        height: 22%;
+        width: 100%;
+        background-color: rgb(129, 129, 189);
+        /* padding-top: 0px; */
+        border-radius: 10px;
+        margin: 5px;
+
+
+    /* pxالطول هنا يجب ان يكون 80 */
+}
+.flex{
+display: flex;
+height: 100%;
+}
+.flex2{
     height: 100%;
 }
 
-/* من الخواص التي يجب تغيرها لكي تصل للمطلوب
-    1. لون الخلفيه
-    2. الطول والعرض
-    3. الهوامش
-    4. الحواشي
-    5. نوع العرض
-    6. border radius */
-
-/* عند الحاجه w3schools قم بالاستعانه بموقع  */
-
-.sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
-}
-
-.header{
-    /* pxالطول هنا يجب ان يكون 80 */
-}
-
-.main{
-
+.main {
+    background-color: rgb(120, 221, 221);
+    width: 100%;
+    border-radius: 10px;
+    height: 78%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+        
 }
 
 a{
-    color: darkgray;
-    /* اجعل شكل اللنك من غير خط اسفل الكلام */
-}
-
-/* !بــونص */
-/* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
-/* (p) غير محاذاة الفقرات لتصبح بالوسط */
-
-
-
+        text-decoration: none;
+        
+          
+    color: darkgray;*/}
+a:hover {
+    color: white;
+  }
+  
 h1{
     margin: 0;
     margin-right: 5px;
+    text-align: left;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
 }
-
+p{
+    text-align: center;
+}
